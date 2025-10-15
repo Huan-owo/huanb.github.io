@@ -1,0 +1,108 @@
+
+        body{
+          margin: 0;
+        }
+        h1{
+          font-size: 24px;
+        }
+        h2{
+          font-size: 20px;
+        }
+        .textfooter{
+          text-align: center;
+        }
+        .containerheader{
+          background-color: #002060;
+          position: relative;
+        }
+        .hehe {
+          display:none;
+        }
+        .logoimg {
+          width: 120px;
+        }
+        .butonimg{
+          width: 40px;
+          position:absolute;
+          right: 10px;
+          top: 25px;
+        }
+        img{
+          width:100%;
+        }
+        .containermain{
+          text-align: center;
+        }
+        .jobimg{
+          width: 90%;
+        }
+        .containerquestions{
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+        .questions {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          gap:15px;
+          font-weight: bold;
+        }
+        .quest{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0px 0px 12px 1px #DDD;
+          width: 80%;
+          height: 60px;
+        }
+        .conte{
+          display:none;
+        }
+        .iframemap{
+          width:75%; 
+          height:450;
+          border:0; 
+          allowfullscreen:; 
+          loading:lazy; 
+          referrerpolicy:no-referrer-when-downgrade;
+        }
+        footer{
+          background-color:#B4232F;
+        }
+        .contmap{
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+        }
+        .contredes{
+          margin-top: 10px;
+          background-color: #B4232F;
+          display:flex;
+          flex-flow: column;
+          align-items: center;
+        }
+        .contredesopc{
+          display:flex;
+          flex-flow: row;
+          gap:15px;
+        }
+        .imgrede1, .imgrede2{
+          width:45px;
+          height:45px;
+        }
+        .contcontatos{
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: space-around;
+        }
+        .textfooter{
+          display:flex;
+          justify-content: center;
+        }
+        h2#LocalR{
+          color:white;
+        }
+        h3#RedesR{
+          color:white;
+        }
