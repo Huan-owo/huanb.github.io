@@ -2,7 +2,28 @@
         body{
           margin: 0;
         }
-
+        h1{
+          font-size: 28px;
+          margin-bottom: 7px;
+        }
+        h2{
+          font-size: 24px;
+        }
+        main h3{
+          font-size: 20px;
+          margin-top: 10px;
+        }
+        footer h3{
+          font-size: 20px;
+        }
+        p{
+          font-size: 16px;
+        }
+        #subh{
+          margin-top: 0%;
+          padding-top: 0%;
+          color: #333;
+        }
         .textfooter{
           text-align: center;
         }
@@ -49,12 +70,29 @@
           flex-direction: column;
           align-items: center;
         }
+        .jobs{
+          display:flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+        }
+        .jobcards{
+          box-shadow: 0px 0px 12px 4px #bbb;
+          width: 95%;
+          border-radius: 10px;
+        }
         .jobimg{
-          width: 90%;
+          width: 95%;
+          margin-top: 20px;
         }
         .containerquestions{
-          margin-top: 50px;
           margin-bottom: 50px;
+          width: 70%;
+        }
+        #linhacardandquestions{
+          width: 75%;
+          margin-top: 40px;
+          margin-bottom: 10px;
         }
         .questions {
           display: flex;
@@ -62,17 +100,19 @@
           align-items: center;
           gap:15px;
           font-weight: bold;
+          font-size: 16px;
         }
         .quest{
           display: flex;
           align-items: center;
           justify-content: center;
-          box-shadow: 0px 0px 12px 1px #DDD;
+          box-shadow: 0px 0px 12px 1px #aaa;
           width: 80%;
           height: 60px;
         }
         .conte{
           display:none;
+          width: 70%;
         }
         .iframemap{
           width:75%; 
@@ -90,22 +130,6 @@
           flex-flow: column;
           align-items: center;
         }
-        .contredes{
-          margin-top: 10px;
-          background-color: #B4232F;
-          display:flex;
-          flex-flow: column;
-          align-items: center;
-        }
-        .contredesopc{
-          display:flex;
-          flex-flow: row;
-          gap:15px;
-        }
-        .imgrede1, .imgrede2{
-          width:45px;
-          height:45px;
-        }
         .contcontatos{
           display: flex;
           flex-flow: row;
@@ -119,9 +143,6 @@
         h2#LocalR{
           color:white;
         }
-        h3#RedesR{
-          color:white;
-        }
         hr{
           display: block;
           width: 85%;
@@ -131,8 +152,51 @@
         }
         main hr {
           display: block;
-          width: 95%;
+          width: 75%;
           background-color: black;
           padding: 0px;
           margin: 10px ;
+        }/* icones whatsapp e instagram fixados á tela individualemnte 
+        .instaicon{
+          width: 50px;
+          position: fixed;
+          bottom: 35px;
+          right:115px
         }
+        .whaticon{
+          width: 80px;
+          position: fixed;
+          bottom: 20px;
+          right:20px
+        }
+        */
+        .redes {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          display: flex;
+          flex-direction: row-reverse;
+          align-items: center;
+          gap: 20px;
+        }
+        .whaticon{
+          width: 80px;
+          right: 10px;
+          position: relative;
+        }
+        .instaicon{
+          width: 50px;
+          height: 50px;
+          position: relative;
+        }
+        #circulo1{
+          width: 75px;
+          right: 85px;
+          position: absolute;
+        }
+        #circulo2{
+          width: 110px;
+          right: ;
+          position: absolute;
+        }
+       
