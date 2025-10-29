@@ -3,21 +3,21 @@
           margin: 0;
         }
         h1{
-          font-size: 28px;
+          font-size: 50px;
           margin-bottom: 7px;
         }
         h2{
-          font-size: 24px;
+          font-size: 45px;
         }
         main h3{
-          font-size: 20px;
+          font-size: 40px;
           margin-top: 10px;
         }
         footer h3{
-          font-size: 20px;
+          font-size: 40px;
         }
         p{
-          font-size: 16px;
+          font-size: 35px;
         }
         #subh{
           margin-top: 0%;
@@ -87,7 +87,7 @@
         }
         .containerquestions{
           margin-bottom: 50px;
-          width: 70%;
+          width: 90%;
         }
         #linhacardandquestions{
           width: 75%;
@@ -100,15 +100,15 @@
           align-items: center;
           gap:15px;
           font-weight: bold;
-          font-size: 16px;
+          font-size: 35px;
         }
         .quest{
           display: flex;
           align-items: center;
           justify-content: center;
           box-shadow: 0px 0px 12px 1px #aaa;
-          width: 80%;
-          height: 60px;
+          width: 90%;
+          height: 110px;
         }
         .conte{
           display:none;
@@ -140,7 +140,7 @@
           display:flex;
           justify-content: center;
         }
-        h2#LocalR{
+        h3#LocalR{
           color:white;
         }
         hr{
@@ -172,31 +172,24 @@
         */
         .redes {
           position: fixed;
-          bottom: 20px;
-          right: 20px;
+          bottom: 90px;
+          right: 40px;
           display: flex;
           flex-direction: row-reverse;
           align-items: center;
           gap: 20px;
         }
-        .whaticon{
-          width: 80px;
-          right: 10px;
-          position: relative;
-        }
-        .instaicon{
-          width: 50px;
-          height: 50px;
-          position: relative;
-        }
         #circulo1{
-          width: 75px;
-          right: 85px;
+          width: 90px;
+          right: 130px;
           position: absolute;
         }
         #circulo2{
-          width: 110px;
+          width: 125px;
           right: ;
           position: absolute;
+        }
+        #copyright{
+          font-size: 25px;
         }
        
