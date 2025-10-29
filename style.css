@@ -3,21 +3,21 @@
           margin: 0;
         }
         h1{
-          font-size: 50px;
+          font-size: 45px;
           margin-bottom: 7px;
         }
         h2{
-          font-size: 45px;
+          font-size: 40px;
         }
         main h3{
-          font-size: 40px;
+          font-size: 35px;
           margin-top: 10px;
         }
         footer h3{
-          font-size: 40px;
+          font-size: 35px;
         }
         p{
-          font-size: 35px;
+          font-size: 30px;
         }
         #subh{
           margin-top: 0%;
@@ -100,7 +100,7 @@
           align-items: center;
           gap:15px;
           font-weight: bold;
-          font-size: 35px;
+          font-size: 30px;
         }
         .quest{
           display: flex;
