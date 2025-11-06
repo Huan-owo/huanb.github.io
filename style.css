@@ -4,8 +4,8 @@
         }
         #local{
           width: 100px;
-          margin-bottom: 0px;
-          padding-bottom: 0px;
+          margin: 0px;
+          padding: 0px;
         }
         #subp{
           color: #B4232F;
@@ -125,7 +125,7 @@
         }
         .iframemap{
           width:75%; 
-          height:450;
+          height:350PX;
           border:0; 
           allowfullscreen:; 
           loading:lazy; 
@@ -190,11 +190,15 @@
         }
         #circulo1{
           width: 90px;
+        }
+        #linkcirc1{
           right: 130px;
           position: absolute;
         }
         #circulo2{
           width: 125px;
+        }
+        #linkcirc2{
           right: ;
           position: absolute;
         }
