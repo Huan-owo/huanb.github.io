@@ -3,20 +3,13 @@
           margin: 0;
         }
         #local{
-          width: 185px;
+          width: 100px;
           margin: 0px;
           padding: 0px;
-          position: absolute;
-          left: 400px;
-          top: 600px;
-          z-index: 2;
-
         }
         #subp{
           color: #B4232F;
-          margin-top: 75px;
-          position:relative;
-          z-index: 3;
+          margin-top: 0px;
         }
         h1{
           font-size: 45px;
@@ -33,7 +26,7 @@
           font-size: 35px;
         }
         p{
-          font-size: 35px;
+          font-size: 30px;
         }
         #subh{
           margin-top: 0%;
@@ -44,23 +37,9 @@
           text-align: center;
         }
         .containerheader{
-          height: 700px;
           background-color: #002060;
-          display: block;
-          margin-bottom: 0px;
-          padding-bottom: 0px;
-        }
-        .fachada{
           position: relative;
-          height:100%;
-          width: 100%;
-        }
-        .fachadaB{
-          display: none;
-          position: relative;
-          height:100%;
-          width: 100%;
-          z-index: 1;
+          height: 125px;
         }
         .hehe {
           display:none;
@@ -88,8 +67,8 @@
         .butonimg{
           width: 70px;
           position:absolute;
-          left: 50px;
-          top: 60px;
+          right: 15px;
+          top: 35px;
         }
         img{
           width:100%;
